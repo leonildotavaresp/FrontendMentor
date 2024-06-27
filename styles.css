@@ -1,0 +1,36 @@
+body {
+  background-color: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+body #group-3 {
+  width: 20rem;
+  height: 31rem;
+  background-color: white;
+  border-radius: 12px;
+}
+body #qr-code-content {
+  background-image: url("images/image-qr-code.png");
+  background-position: center;
+  background-size: cover;
+  width: 18rem;
+  height: 18rem;
+  margin: 1rem;
+  border-radius: 12px;
+}
+body #group-2 {
+  margin: 1rem;
+}
+body #group-2 #improve {
+  text-align: center;
+  color: #1F314F;
+}
+body #group-2 #scan {
+  text-align: center;
+  color: #7D889E;
+}
+
+/*# sourceMappingURL=styles.css.map */

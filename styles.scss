@@ -1,0 +1,40 @@
+@use 'colors';
+
+body {
+    background-color: colors.$primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+
+    #group-3 {
+        width: 20rem;
+        height: 31rem;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    #qr-code-content {
+        background-image: url('images/image-qr-code.png');
+        background-position: center;
+        background-size: cover;
+        width: 18rem;
+        height: 18rem;
+        margin: 1rem;
+        border-radius: 12px;        
+    }
+
+    #group-2 {
+        margin: 1rem;
+
+        #improve {
+            text-align: center;
+            color: #1F314F;
+        }
+        #scan {
+            text-align: center;
+            color: #7D889E;
+        }
+    }
+}
